@@ -1,0 +1,21 @@
+{
+  "blocklist": [
+    "valid_app.exe",
+    "../../../system32/cmd.exe"
+  ],
+  "whitelist": [
+    "vscode.exe",
+    "code.exe",
+    "python.exe",
+    "pycharm.exe",
+    "excel.exe",
+    "word.exe",
+    "outlook.exe",
+    "slack.exe",
+    "teams.exe",
+    "zoom.exe",
+    "notion.exe"
+  ],
+  "block_threshold": 30,
+  "recovery_threshold": 50
+}

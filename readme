@@ -1,0 +1,28 @@
+# FocusGuard 🧠
+
+**AI-Powered Distraction Blocker**
+
+FocusGuard is an intelligent desktop application that uses computer vision and behavioral analysis to detect when you're getting distracted and helps you stay focused.
+
+## ✨ Features
+
+- **AI-Powered Detection**: Uses ML models to analyze both screen content and user behavior
+- **Context-Aware**: Distinguishes between productive and distracting content
+- **Smart Interventions**: Gradual interventions based on distraction level
+- **Privacy-Focused**: All processing happens locally on your machine
+- **Real-time Analytics**: Monitor your focus patterns and productivity
+
+## 🚀 Quick Start
+
+### Prerequisites
+
+- Python 3.8 or higher
+- Tesseract OCR (for text extraction)
+- Screen recording permission (macOS)
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/focusguard.git
+cd focusguard

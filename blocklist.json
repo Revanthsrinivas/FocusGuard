@@ -1,0 +1,19 @@
+{
+  "blocked_apps": [
+    "netflix",
+    "steam",
+    "epic games",
+    "valorant",
+    "fortnite",
+    "minecraft",
+    "roblox"
+  ],
+  "blocked_websites": [
+    "facebook.com",
+    "instagram.com",
+    "tiktok.com",
+    "reddit.com",
+    "twitch.tv",
+    "9gag.com"
+  ]
+}

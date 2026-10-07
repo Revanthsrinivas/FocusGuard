@@ -1,0 +1,71 @@
+# src/config/constants.py
+"""
+Application constants - centralized magic numbers
+"""
+from pathlib import Path
+
+# Monitoring
+MONITOR_INTERVAL_SECONDS = 2
+FEEDBACK_FREQUENCY = 20
+BATCH_SAVE_SIZE = 50
+MIN_TRAINING_SAMPLES = 100
+
+# Focus thresholds
+FOCUS_DEFAULT = 50.0
+FOCUS_MIN = 0.0
+FOCUS_MAX = 100.0
+
+# Prediction
+PREDICTION_TIMEOUT_MS = 1000  # 1 second timeout for predictions
+MAX_SAMPLES_IN_MEMORY = 1000
+MAX_TOTAL_SAMPLES = 200000
+MAX_MEMORY_SAMPLES = 100
+
+# Focus scores
+DEFAULT_FOCUS_FALLBACK = 50.0
+HIGH_FOCUS_THRESHOLD = 70
+MEDIUM_FOCUS_THRESHOLD = 40
+LOW_FOCUS_THRESHOLD = 30
+
+# ML Features
+NUM_FEATURES = 29
+
+# Time windows
+ANALYSIS_WINDOW_SECONDS = 30
+BLOCK_COOLDOWN_SECONDS = 5
+
+# Performance
+MAX_PREDICTION_LATENCY_MS = 100
+ERROR_RATE_THRESHOLD = 0.05
+MAX_RETRIES = 3
+RETRY_DELAY_SECONDS = 1
+
+# OCR & Vision
+CHANGE_THRESHOLD = 0.3
+MIN_TEXT_LENGTH = 10
+TESSERACT_RATE_LIMIT_SECONDS = 5
+OCR_MAX_TEXT_LENGTH = 500
+
+# Mouse/Keyboard
+MOUSE_IDLE_THRESHOLD = 10
+MOUSE_HYPER_THRESHOLD = 50
+MIN_TYPING_SPEED = 0.1
+
+# Paths
+DEFAULT_TESSERACT_PATH = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+MODEL_PATHS = [
+    Path("models/hybrid_ensemble.pkl"),
+    Path("models/optimized_ensemble.joblib"),
+    Path("models/ensemble_model.pkl")
+]
+
+# Training
+PBKDF2_ITERATIONS = 100000
+SCROLL_SIGNIFICANT_THRESHOLD = 2
+HOUGH_MIN_LINE_LENGTH = 100
+HOUGH_MAX_LINE_GAP = 10
+
+# Data
+RECENT_HISTORY_SIZE = 1000
+MEDIUM_HISTORY_SIZE = 100
+

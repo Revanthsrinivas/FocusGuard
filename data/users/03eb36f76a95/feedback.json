@@ -1,0 +1,18 @@
+[
+  {
+    "timestamp": "2026-03-23T02:53:48.962786",
+    "app_name": "test_app",
+    "window_title": "Test Window",
+    "predicted_score": 75,
+    "was_accurate": true,
+    "error": 25
+  },
+  {
+    "timestamp": "2026-03-23T02:59:23.972729",
+    "app_name": "test_app",
+    "window_title": "Test Window",
+    "predicted_score": 75,
+    "was_accurate": true,
+    "error": 25
+  }
+]

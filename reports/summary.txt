@@ -1,0 +1,30 @@
+
+FOCUSGUARD DATA SUMMARY
+=======================
+Generated: 2026-03-21 16:37:26
+Total Samples: 111647
+
+Focus Score Statistics:
+- Mean: 56.5%
+- Median: 60.0%
+- Std Dev: 6.6%
+- Min: 40%
+- Max: 75%
+
+Top 10 Apps:
+opera.exe                      81364
+WindowsTerminal.exe            17679
+Armoury Crate Installer.exe     6464
+ApplicationFrameHost.exe        2408
+Code.exe                        1332
+explorer.exe                    1172
+SnippingTool.exe                 576
+LockApp.exe                      276
+SearchHost.exe                   120
+ShellExperienceHost.exe           80
+
+Time of Day Analysis:
+- Morning (6-12): nan%
+- Afternoon (12-18): 53.7%
+- Evening (18-24): 58.6%
+- Night (0-6): nan%
